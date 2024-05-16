@@ -1,7 +1,8 @@
+import React from "react";
+import InvestCalculator from "./components/Calculator/InvestCalculator";
+
 function App() {
-  return (
-    <h1>React Investment Calculator</h1>
-  )
+  return <InvestCalculator />;
 }
 
-export default App
+export default App;
